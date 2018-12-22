@@ -1,3 +1,7 @@
 .DottedBox {
 	background: red;
 }
+
+footer.page-footer.example {
+    background: blue;
+}

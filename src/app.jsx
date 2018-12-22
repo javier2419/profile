@@ -1,6 +1,7 @@
 import React from 'react';
 import Navigation from './components/Navigation';
-import Carrousel from './components/Carrousel';
+import Academy from './components/Academy';
+//import Carrousel from './components/Carrousel';
 import Musicians from './components/Musicians';
 import Products from './components/Products';
 import FooterMateria from './components/Footer';
@@ -10,14 +11,14 @@ import {Jumbotron} from 'react-bootstrap';
 
 import "styles/base/_main.sass"  // Global styles
 //import "styles/base/_common.sass"  // Global styles
-//import styles from "./app.sass"  // Css-module styles
-
+//import styles from "./app.css"  // Css-module styles
+//import "app.css"
 class App extends React.Component {
   render(){
     return (
-     <div>
+     <div class="container">
     <Navigation/>
-    <Carrousel />
+    <Academy />
     
     
      <Button waves='light'>

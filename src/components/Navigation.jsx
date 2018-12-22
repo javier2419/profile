@@ -8,30 +8,20 @@ class Navigation extends React.Component {
 	render(){
 		return (
        <div>
-         <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
-            <ul class="navbar-nav">
-					    <li class="nav-item">
-					      <a class="nav-link" href="#section1">Section 1</a>
-					    </li>
-					    <li class="nav-item">
-					      <a class="nav-link" href="#section2">Section 2</a>
-					    </li>
-					    <li class="nav-item">
-					      <a class="nav-link" href="#section3">Section 3</a>
-					    </li>
-					    <li class="nav-item dropdown">
-					      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-					        Section 4
-					      </a>
-					      <div class="dropdown-menu">
-					        <a class="dropdown-item" href="#section41">Link 1</a>
-					        <a class="dropdown-item" href="#section42">Link 2</a>
-					      </div>
-					    </li>
-          </ul>
-         </nav>
-
-       </div>
+       
+        <div class="row">
+          <div class="col-xs-12">
+            <div id="photo-header" class="text-center">
+              <div class="photo">
+                <img src="https://i.gyazo.com/8d4230dc1c088ce345cfc31281bfc73e.png" alt="avatar" />
+              </div>           
+              <div id="text-header">
+                <h1>JAVIER IGNACIO TORREALBA</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 			);
 	}
 }
