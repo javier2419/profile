@@ -1,6 +1,7 @@
 import React from 'react';
 import Navigation from './components/Navigation';
 import Academy from './components/Academy';
+import Sidebar from './components/Sidebar';
 //import Carrousel from './components/Carrousel';
 import Musicians from './components/Musicians';
 import Products from './components/Products';
@@ -17,27 +18,16 @@ class App extends React.Component {
   render(){
     return (
      <div class="container">
-    <Navigation/>
-    <Academy />
-    
-    
-     <Button waves='light'>
-    <Icon>thumb_up</Icon>
-  </Button>
-  <FooterMateria/>
-
-  <Jumbotron>
-  <h1>Hello, world!</h1>
-  <p>
-    This is a simple hero unit, a simple jumbotron-style component for calling
-    extra attention to featured content or information.
-  </p>
-  <p>
-    <Button bsStyle="primary">Learn more</Button>
-  </p>
-</Jumbotron>
-
-  </div>
+      <div class="row">
+          <Navigation/>
+          <div class="col-xs-12 col-sm-7">
+          <Academy />
+         </div>
+        <div class="col-xs-12 col-sm-5">
+          <Sidebar />
+        </div>
+      </div>
+     </div>
 
 
       );

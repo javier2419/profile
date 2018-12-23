@@ -2,12 +2,12 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 import Training from './Training';
 import Work from './Work';
+import Skill from './Skills';
 
 class Academy extends React.Component {
 	render(){
 		return (
-        <div class="row">
-          <div class="col-xs-12 col-sm-7">
+            <div>
           	<div class="box">
           		<h2>Formación Académica</h2>
           		<ul id="education" class="clearfix">
@@ -29,8 +29,9 @@ class Academy extends React.Component {
           	</div>
             <Training />
             <Work />
-          </div>
-        </div>
+            <Skill />
+
+           </div> 
 			);
 	}
 }
