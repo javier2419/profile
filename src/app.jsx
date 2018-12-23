@@ -3,8 +3,7 @@ import Navigation from './components/Navigation';
 import Academy from './components/Academy';
 import Sidebar from './components/Sidebar';
 //import Carrousel from './components/Carrousel';
-import Musicians from './components/Musicians';
-import Products from './components/Products';
+
 import FooterMateria from './components/Footer';
 import {Button, Icon} from 'react-materialize'
 import 'normalize.css';
